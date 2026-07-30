@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+void pattern(int n)
+{
+    for(int i = 5; i > 0 ; i --){
+
+        for (int k = 0 ; k <= (n-i) ; k++){
+            cout << " ";
+        }    
+
+        
+        for (int j = 1; j <= 2*i-1;j++){
+            cout << "*";
+        }
+
+        for (int k = 0 ; k <= (n-i) ; k++){
+            cout << " ";
+        } 
+        cout << endl;
+    }
+
+
+
+}
+int main (){
+    int x;
+    cin >> x;
+    pattern(x);
+}
