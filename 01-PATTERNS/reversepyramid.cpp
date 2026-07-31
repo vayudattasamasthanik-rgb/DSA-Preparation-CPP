@@ -2,7 +2,7 @@
 using namespace std;
 void pattern(int n)
 {
-    for(int i = 5; i > 0 ; i --){
+    for(int i = n; i > 0 ; i --){
 
         for (int k = 0 ; k <= (n-i) ; k++){
             cout << " ";
